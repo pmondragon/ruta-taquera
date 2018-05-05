@@ -1,1 +1,1 @@
-web: gunicorn ruta-taquera.wsgi
+web: gunicorn ruta-taquera.wsgi --log-file -
